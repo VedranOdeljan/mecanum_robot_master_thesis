@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001366] (mecanum_control) JobQueued: {'identifier': 'mecanum_control', 'dependencies': OrderedDict()}
+[0.002796] (mecanum_control) JobStarted: {'identifier': 'mecanum_control'}
+[0.099559] (-) TimerEvent: {}
+[0.201823] (-) TimerEvent: {}
+[0.302942] (-) TimerEvent: {}
+[0.403866] (-) TimerEvent: {}
+[0.504928] (-) TimerEvent: {}
+[0.605911] (-) TimerEvent: {}
+[0.706953] (-) TimerEvent: {}
+[0.807919] (-) TimerEvent: {}
+[0.908864] (-) TimerEvent: {}
+[1.009981] (-) TimerEvent: {}
+[1.111048] (-) TimerEvent: {}
+[1.211936] (-) TimerEvent: {}
+[1.312989] (-) TimerEvent: {}
+[1.415542] (-) TimerEvent: {}
+[1.517918] (-) TimerEvent: {}
+[1.620190] (-) TimerEvent: {}
+[1.721052] (-) TimerEvent: {}
+[1.821988] (-) TimerEvent: {}
+[1.922969] (-) TimerEvent: {}
+[2.024476] (-) TimerEvent: {}
+[2.125307] (-) TimerEvent: {}
+[2.226213] (-) TimerEvent: {}
+[2.327189] (-) TimerEvent: {}
+[2.428034] (-) TimerEvent: {}
+[2.529088] (-) TimerEvent: {}
+[2.629992] (-) TimerEvent: {}
+[2.730969] (-) TimerEvent: {}
+[2.831902] (-) TimerEvent: {}
+[2.932851] (-) TimerEvent: {}
+[3.033772] (-) TimerEvent: {}
+[3.134756] (-) TimerEvent: {}
+[3.235683] (-) TimerEvent: {}
+[3.336616] (-) TimerEvent: {}
+[3.437552] (-) TimerEvent: {}
+[3.538166] (mecanum_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/matrice1/ros2_foxy_v2/build/mecanum_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/matrice1/ros2_foxy_v2/build/mecanum_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matrice1', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '3526', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/matrice1', 'OLDPWD': '/home/matrice1/ros2_foxy_v2/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '3428', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '170482', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/matrice1/ros2_foxy_v2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'matrice1', 'JOURNAL_STREAM': '8:60219', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matrice1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/matrice1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3564,unix/ubuntu:/tmp/.ICE-unix/3564', 'INVOCATION_ID': '20a9e581e41b40b7bbf049d839bb4f6d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/matrice1/ros2_foxy_v2/install/mecanum_control:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:24e9954d-5746-482f-80ce-3049089323cb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matrice1/ros2_foxy_v2/build/mecanum_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matrice1/ros2_foxy_v2/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/python3.8/site-packages:/home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.548830] (-) TimerEvent: {}
+[3.655550] (-) TimerEvent: {}
+[3.758334] (-) TimerEvent: {}
+[3.859424] (-) TimerEvent: {}
+[3.960940] (-) TimerEvent: {}
+[4.061980] (-) TimerEvent: {}
+[4.163082] (-) TimerEvent: {}
+[4.264111] (-) TimerEvent: {}
+[4.365680] (-) TimerEvent: {}
+[4.467236] (-) TimerEvent: {}
+[4.568250] (-) TimerEvent: {}
+[4.669279] (-) TimerEvent: {}
+[4.770352] (-) TimerEvent: {}
+[4.799467] (mecanum_control) StdoutLine: {'line': b'running develop\n'}
+[4.870692] (-) TimerEvent: {}
+[4.971754] (-) TimerEvent: {}
+[5.072872] (-) TimerEvent: {}
+[5.173925] (-) TimerEvent: {}
+[5.274835] (-) TimerEvent: {}
+[5.375847] (-) TimerEvent: {}
+[5.476899] (-) TimerEvent: {}
+[5.505009] (mecanum_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.506161] (mecanum_control) StdoutLine: {'line': b'creating mecanum_control.egg-info\n'}
+[5.506959] (mecanum_control) StdoutLine: {'line': b'writing mecanum_control.egg-info/PKG-INFO\n'}
+[5.507817] (mecanum_control) StdoutLine: {'line': b'writing dependency_links to mecanum_control.egg-info/dependency_links.txt\n'}
+[5.508425] (mecanum_control) StdoutLine: {'line': b'writing entry points to mecanum_control.egg-info/entry_points.txt\n'}
+[5.509158] (mecanum_control) StdoutLine: {'line': b'writing requirements to mecanum_control.egg-info/requires.txt\n'}
+[5.509906] (mecanum_control) StdoutLine: {'line': b'writing top-level names to mecanum_control.egg-info/top_level.txt\n'}
+[5.518520] (mecanum_control) StdoutLine: {'line': b"writing manifest file 'mecanum_control.egg-info/SOURCES.txt'\n"}
+[5.577175] (-) TimerEvent: {}
+[5.678202] (-) TimerEvent: {}
+[5.687261] (mecanum_control) StdoutLine: {'line': b"reading manifest file 'mecanum_control.egg-info/SOURCES.txt'\n"}
+[5.691012] (mecanum_control) StdoutLine: {'line': b"writing manifest file 'mecanum_control.egg-info/SOURCES.txt'\n"}
+[5.778470] (-) TimerEvent: {}
+[5.879800] (-) TimerEvent: {}
+[5.900601] (mecanum_control) StdoutLine: {'line': b'running build_ext\n'}
+[5.902732] (mecanum_control) StdoutLine: {'line': b'Creating /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/python3.8/site-packages/site.py\n'}
+[5.915218] (mecanum_control) StdoutLine: {'line': b'Creating /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/python3.8/site-packages/mecanum-control.egg-link (link to .)\n'}
+[5.920987] (mecanum_control) StdoutLine: {'line': b'Installing keyboard_control script to /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/mecanum_control\n'}
+[5.921860] (mecanum_control) StdoutLine: {'line': b'Installing mecanum_kinematics script to /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/mecanum_control\n'}
+[5.922802] (mecanum_control) StdoutLine: {'line': b'Installing teensy_comm script to /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/mecanum_control\n'}
+[5.923525] (mecanum_control) StdoutLine: {'line': b'Installing teensy_odometrija script to /home/matrice1/ros2_foxy_v2/install/mecanum_control/lib/mecanum_control\n'}
+[5.924901] (mecanum_control) StdoutLine: {'line': b'\n'}
+[5.925600] (mecanum_control) StdoutLine: {'line': b'Installed /home/matrice1/ros2_foxy_v2/build/mecanum_control\n'}
+[5.926256] (mecanum_control) StdoutLine: {'line': b'running symlink_data\n'}
+[5.926809] (mecanum_control) StdoutLine: {'line': b'creating /home/matrice1/ros2_foxy_v2/install/mecanum_control/share/ament_index\n'}
+[5.927333] (mecanum_control) StdoutLine: {'line': b'creating /home/matrice1/ros2_foxy_v2/install/mecanum_control/share/ament_index/resource_index\n'}
+[5.927962] (mecanum_control) StdoutLine: {'line': b'creating /home/matrice1/ros2_foxy_v2/install/mecanum_control/share/ament_index/resource_index/packages\n'}
+[5.928418] (mecanum_control) StdoutLine: {'line': b'symbolically linking /home/matrice1/ros2_foxy_v2/build/mecanum_control/resource/mecanum_control -> /home/matrice1/ros2_foxy_v2/install/mecanum_control/share/ament_index/resource_index/packages\n'}
+[5.928932] (mecanum_control) StdoutLine: {'line': b'symbolically linking /home/matrice1/ros2_foxy_v2/build/mecanum_control/package.xml -> /home/matrice1/ros2_foxy_v2/install/mecanum_control/share/mecanum_control\n'}
+[5.980049] (-) TimerEvent: {}
+[6.050219] (mecanum_control) CommandEnded: {'returncode': 0}
+[6.080325] (-) TimerEvent: {}
+[6.139526] (mecanum_control) JobEnded: {'identifier': 'mecanum_control', 'rc': 0}
+[6.144359] (-) EventReactorShutdown: {}

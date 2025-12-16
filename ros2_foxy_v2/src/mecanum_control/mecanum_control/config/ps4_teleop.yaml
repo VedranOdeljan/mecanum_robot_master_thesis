@@ -1,0 +1,18 @@
+joy_node:
+  ros__parameters:
+    dev: "/dev/input/js0"
+    deadzone: 0.05
+
+teleop_twist_joy:
+  ros__parameters:
+    axis_linear: 1
+    axis_lateral: 0
+    axis_angular: 2
+    scale_linear: 0.5
+    scale_lateral: 0.5
+    scale_angular: 1.5
+    enable_button: 0     
+    speed_up_button: 5   
+    speed_down_button: 4
+    topic_name: "/cmd_vel"
+

@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": "../teensy_v1"
+		},
+		{
+			"name": "teensy_linearno_kretanje",
+			"path": "../teensy_linearno_kretanje"
+		},
+		{
+			"name": "teensy_linearno_v2",
+			"path": "../teensy_linearno_v2"
+		},
+		{
+			"name": "teensy_joystick",
+			"path": "../teensy_joystick"
+		},
+		{
+			"name": "teensy_joystick_v2",
+			"path": "../teensy_joystick_v2"
+		},
+		{
+			"name": "teensy_joystick_v3",
+			"path": "../teensy_joystick_v3"
+		},
+		{
+			"name": "teensy_joystick_encoders_v1",
+			"path": "../teensy_joystick_encoders_v1"
+		},
+		{
+			"name": "teensy_encoders_PID",
+			"path": "../teensy_encoders_PID"
+		},
+		{
+			"name": "linearno_v3",
+			"path": "../linearno_v3"
+		},
+		{
+			"name": "teensy_blink",
+			"path": "../teensy_blink"
+		},
+		{
+			"name": "teensy_blink_v2",
+			"path": "../teensy_blink_v2"
+		},
+		{
+			"name": "teensy_encoders_PID_v2",
+			"path": "../teensy_encoders_PID_v2"
+		},
+		{
+			"name": "teensy_PID-v3",
+			"path": "."
+		},
+		{
+			"name": "teensy_PID_v4",
+			"path": "../teensy_PID_v4"
+		}
+	],
+	"settings": {}
+}

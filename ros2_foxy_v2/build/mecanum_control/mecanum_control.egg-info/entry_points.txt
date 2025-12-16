@@ -1,0 +1,6 @@
+[console_scripts]
+keyboard_control = mecanum_control.keyboard_control:main
+mecanum_kinematics = mecanum_control.mecanum_kinematics:main
+teensy_comm = mecanum_control.teensy_comm:main
+teensy_odometrija = mecanum_control.teensy_odometrija:main
+
